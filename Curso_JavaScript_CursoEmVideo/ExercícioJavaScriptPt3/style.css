@@ -1,0 +1,65 @@
+body {
+
+    background-color: rgb(36, 90, 17);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+    color: rgb(255, 247, 0);
+    text-align: center;
+}
+
+section {
+
+    background-color: white;
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 10px;
+    /* Espaçamento interno */
+    width: 300px;
+    /* Largura fixa */
+    margin: auto;
+    /* Centraliza horizontalmente */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.27);
+    /* Sombra para dar profundidade */
+
+}
+
+footer {
+
+    text-align: center;
+    /* Centraliza o texto no rodapé */
+    font-style: oblique;
+    /* Estilo de fonte oblíquo */
+
+}
+
+/* Modelagem das fotos */
+
+img {
+
+    width: 300px;
+    /* Largura fixa */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.27);
+    /* Sombra para dar profundidade */
+
+}
+
+div#res {
+
+    text-align: center;
+    /* Centraliza o texto no div com id "res" */
+    margin-top: 20px;
+    /* Espaçamento superior */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Negrito */
+
+}

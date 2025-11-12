@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device=width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aula_01a07_CursoEmVídeo_ApresentaçãoJS</title>
+
+  <style>
+    body {
+      background-color: yellow;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Olá Mundo!</h1>
+  <p>Já estou livre da maldição!</p>
+
+
+  <script>
+
+
+    //window.alert("Minha primeira mensagem.")     //Mensagem em forma de alerta
+    //window.confirm("Está gostando de JS?")     //Janela de Ok ou Cancelar
+    //window.prompt("Qual seu nome?")      //Pergunta seu nome
+
+
+    //Para armazenar o nome colocado
+    // var name = window.prompt("Qual seu nome?")
+    // window.alert("É um prazer te conhecer, "+name)
+
+
+    //Convertendo String em número
+    // var n1 = Number(window.prompt("Digite um número: "))
+    //var n2 = Number(window.prompt("Digite um número: "))
+
+    //Soma padrão
+    // soma = n1 + n2
+    //  window.alert("A soma dos números é: "+soma)
+
+
+    //Mostrando quantas letras o nome tem, usando length e mostrando como ficaria minúsculo e maiúsculo
+    var name = window.prompt("Qual o seu nome?")
+    document.write('Oi, <b>', name, '</b>!Seu nome tem ', name.length, ' letras.<br/>')
+    document.write('Seu nome em maiúsculas fica assim: <b>', name.toUpperCase(), '</b><br/>')
+    document.write('Seu nome em minúsculas fica assim: <b>', name.toLowerCase(), '</b><br/><br/>')
+
+
+    //Mostrando 2 casa decimal do número, usando toFixed, e trocando ponto por vírgula com replace
+    var n1 = Number(window.prompt("Digite um número: "))
+    document.write('O número digitado normal: ', n1, '<br/>')
+    document.write('O número digitado mostrando duas casas decimais: ', n1.toFixed(2), '<br/>')
+    document.writeln('O número digitado trocado o ponto por virgula: ', n1.toFixed(2).replace(".", ","), '<br/>')//Não funcionando se não for usado o toFixed para virar String
+
+    //Fazendo conversão do número para número monetário
+    var valor = n1
+    document.write('O valor é ', valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }), ' em reais.<br/>')
+
+    //Mostrando operadores de atribuição simplificados (Fazem conta com ele mesmo)
+    var x = 5
+    x += 2
+    x *= 3
+    X -= 1
+    x /= 2
+    x **= 2
+    document.write('O valor final de x é: ', x)
+    //O valor já é retirado ou somado diretamente na execução
+    --x
+    ++x
+    //O valor é retirado ou somado depois da execução
+    x--
+    x++
+
+  </script>
+
+</body>
+
+
+
+</html>

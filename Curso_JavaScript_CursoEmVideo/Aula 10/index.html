@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10_CursoEmVídeo_EventosDOM</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Usando função e eventos com DOM -->
+    <!-- Aqui é adicionado o evento na div para a execução da função do JS-->
+    <!--Função = o que vai acontecer, Evento = ação/o que esta fazendo para acontecer algo-->
+
+    <!--<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >
+        OLAAA
+    </div>!--> <!--Esse seria o HTML com os eventos colocados nele!-->
+
+    <!--HTML com os Eventos colocados no JS-->
+    <div id="area">
+
+        OLAAA
+
+    </div>
+
+
+    <!--Fazendo interação com o usuário-->
+    <h1>
+        Somando os Números
+    </h1>
+
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+
+    <div id="res">Resultado: </div>
+
+
+    <script src="./dom.js"></script>
+
+</body>
+
+</html>

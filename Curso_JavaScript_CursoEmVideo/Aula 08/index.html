@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device=width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aula08_CursoEmVídeo_Operadores</title>
+
+  <style>
+    body {
+      background-color: rgb(251, 251, 80);
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Olá Mundo!</h1>
+  <p>Já estou livre da maldição!</p>
+
+
+  <script>
+
+    //Operador condicional (ternário)
+    var x = 5
+    var y = 3
+    document.write('Valor de y é: ', y, ' <br/>')
+    resultado = x >= y ? 'sim, x é maior ou igual a y<br/>' : 'não, x não é maior ou igual a y<br/>'
+    document.write(resultado)
+
+    //Operadores lógicos e condicional ternário juntos
+    //Fazendo um teste para saber se a pessoa pode dirigir com Verdadeiro ou Falso e usando operador lógico AND (&&)
+    var dirigir = String(window.prompt("Você dirige?"))
+    var idade = Number.parseInt(window.prompt("Qual sua idade?"))
+    var res = dirigir == 'sim' && idade >= 18 ? 'Você pode dirigir' : 'Você não pode dirigir'
+    document.write('<br/>', res)
+    var res2 = res == 'Você pode dirigir' ? 'Parabéns, dirija com cuidado!' : 'Você precisa ter a CNH.'
+    document.write('<br/>', res2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>

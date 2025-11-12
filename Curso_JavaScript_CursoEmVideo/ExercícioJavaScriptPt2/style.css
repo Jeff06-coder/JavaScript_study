@@ -1,0 +1,68 @@
+body {
+
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+
+    text-align: center;
+}
+
+section {
+
+    background-color: white;
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    padding: 10px;
+    /* Espaçamento interno */
+    width: 350px;
+    /* Largura fixa */
+    margin: auto;
+    /* Centraliza horizontalmente */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.27);
+    /* Sombra para dar profundidade */
+
+}
+
+footer {
+
+    text-align: center;
+    /* Centraliza o texto no rodapé */
+    font-style: oblique;
+    /* Estilo de fonte oblíquo */
+
+}
+
+div {
+
+    text-align: center;
+}
+
+
+/* Edição das imagens */
+#img-manha {
+    width: 350px;
+    height: auto;
+    margin: 1px;
+}
+
+#img-tarde {
+    width: 350px;
+    height: auto;
+    margin: 1px;
+}
+
+#img-noite {
+    width: 350px;
+    height: auto;
+    margin: 1px;
+}
+
+#img-madrugada {
+    width: 350px;
+    height: auto;
+    margin: 1px;
+}

@@ -1,0 +1,25 @@
+div#area {
+    background: rgb(183, 183, 210);
+    color: rgb(244, 9, 9);
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    /* Colocando borda na caixa */
+    line-height: 150px;
+    text-align: center;
+    /* Alinhando o texto ao centro dentro do quadrado */
+}
+
+
+div#res {
+    font: 15pt Arial;
+    width: 250px;
+}
+
+input#txtn1,
+input#txtn2 {
+    width: 50px;
+    /* Ajustando o tamanho da font/letra */
+    font: 15pt Arial;
+    /* Ajustando o tamanho da caixa de input */
+}
