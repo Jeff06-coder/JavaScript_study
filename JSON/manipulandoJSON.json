@@ -1,0 +1,20 @@
+
+{
+    
+    "user":[
+        {
+            "Nome":"João",
+            "Idade":30,
+            "Cidade":"São Paulo",
+            "Tipo": "Admin"
+        },
+        {
+            "Nome":"Maria",
+            "Idade":25,
+            "Cidade":"Rio de Janeiro",
+            "Tipo": "User"
+        }
+    ]
+
+
+}
